@@ -1,0 +1,4 @@
+header-includes:
+  - '<link href="../Styles/generic-style.css" type="text/css" rel="stylesheet"/>'
+title: "Ricettario Bimby"
+lang: "it"

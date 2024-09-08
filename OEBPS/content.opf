@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId">urn:uuid:36df9249-09a3-44f8-a151-d97e84a028a7</dc:identifier>
+    <dc:creator id="cre">Andrea Falabretti</dc:creator>
+    <dc:language>it</dc:language>
+    <dc:title>Ricettario Bimby</dc:title>
+    <meta property="dcterms:modified">2024-09-03T18:11:36Z</meta>
+    <meta name="Sigil version" content="2.3.0"/>
+    <meta name="cover" content="coverEbook.jpg"/>
+  </metadata>
+  <manifest>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="generic-style.css" href="Styles/generic-style.css" media-type="text/css"/>
+    <item id="besciamella.jpg" href="Images/besciamella.jpg" media-type="image/jpeg"/>
+    <item id="besciamella.xhtml" href="Text/besciamella.xhtml" media-type="application/xhtml+xml"/>
+    <item id="carnePizzaiola.jpg" href="Images/carnePizzaiola.jpg" media-type="image/jpeg"/>
+    <item id="carneAllaPizzaiola.xhtml" href="Text/carneAllaPizzaiola.xhtml" media-type="application/xhtml+xml"/>
+    <item id="coscePollo.jpg" href="Images/coscePollo.jpg" media-type="image/jpeg"/>
+    <item id="coscePollo.xhtml" href="Text/coscePollo.xhtml" media-type="application/xhtml+xml"/>
+    <item id="gelatoFragola.jpg" href="Images/gelatoFragola.jpg" media-type="image/jpeg"/>
+    <item id="gelatoFragole.xhtml" href="Text/gelatoFragole.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introAntipasti.xhtml" href="Text/introAntipasti.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introDolci.xhtml" href="Text/introDolci.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introPrimi.xhtml" href="Text/introPrimi.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introSalse.xhtml" href="Text/introSalse.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introSecondi.xhtml" href="Text/introSecondi.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mousseProsciutto.jpg" href="Images/mousseProsciutto.jpg" media-type="image/jpeg"/>
+    <item id="mousseProsciutto.xhtml" href="Text/mousseProsciutto.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pannaCotta.jpg" href="Images/pannaCotta.jpg" media-type="image/jpeg"/>
+    <item id="pannaCotta.xhtml" href="Text/pannaCotta.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pastaCeci.jpg" href="Images/pastaCeci.jpg" media-type="image/jpeg"/>
+    <item id="pastaCeci.xhtml" href="Text/pastaCeci.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pateOlive.jpg" href="Images/pateOlive.jpg" media-type="image/jpeg"/>
+    <item id="pateOlive.xhtml" href="Text/pateOlive.xhtml" media-type="application/xhtml+xml"/>
+    <item id="risottoFunghi.jpg" href="Images/risottoFunghi.jpg" media-type="image/jpeg"/>
+    <item id="risottoFunghi.xhtml" href="Text/risottoFunghi.xhtml" media-type="application/xhtml+xml"/>
+    <item id="salsaTonnata.jpg" href="Images/salsaTonnata.jpg" media-type="image/jpeg"/>
+    <item id="salsaTonnata.xhtml" href="Text/salsaTonnata.xhtml" media-type="application/xhtml+xml"/>
+    <item id="totanoLimone.jpg" href="Images/totanoLimone.jpg" media-type="image/jpeg"/>
+    <item id="totanoLimone.xhtml" href="Text/totanoLimone.xhtml" media-type="application/xhtml+xml"/>
+    <item id="LibreBaskerville-Regular.ttf" href="Fonts/LibreBaskerville-Regular.ttf" media-type="font/ttf"/>
+    <item id="Style0001.css" href="Styles/sgc-index.css" media-type="text/css"/>
+    <item id="coverEbook.jpg" href="Images/coverEbook.jpg" media-type="image/jpeg"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="ANTIPASTI.jpg" href="Images/ANTIPASTI.jpg" media-type="image/jpeg"/>
+    <item id="DOLCI.jpg" href="Images/DOLCI.jpg" media-type="image/jpeg"/>
+    <item id="PRIMI_PIATTI.jpg" href="Images/PRIMI%20PIATTI.jpg" media-type="image/jpeg"/>
+    <item id="SALSE.jpg" href="Images/SALSE.jpg" media-type="image/jpeg"/>
+    <item id="SECONDI_PIATTI.jpg" href="Images/SECONDI%20PIATTI.jpg" media-type="image/jpeg"/>
+    <item id="defAntipasti.xhtml" href="Text/defAntipasti.xhtml" media-type="application/xhtml+xml"/>
+    <item id="defSalse.xhtml" href="Text/defSalse.xhtml" media-type="application/xhtml+xml"/>
+    <item id="defPrimi.xhtml" href="Text/defPrimi.xhtml" media-type="application/xhtml+xml"/>
+    <item id="defSecondi.xhtml" href="Text/defSecondi.xhtml" media-type="application/xhtml+xml"/>
+    <item id="defDolci.xhtml" href="Text/defDolci.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Index.xhtml" href="Text/Index.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="nav.xhtml"/>
+    <itemref idref="defAntipasti.xhtml"/>
+    <itemref idref="introAntipasti.xhtml"/>
+    <itemref idref="mousseProsciutto.xhtml"/>
+    <itemref idref="pateOlive.xhtml"/>
+    <itemref idref="defSalse.xhtml"/>
+    <itemref idref="introSalse.xhtml"/>
+    <itemref idref="salsaTonnata.xhtml"/>
+    <itemref idref="besciamella.xhtml"/>
+    <itemref idref="defPrimi.xhtml"/>
+    <itemref idref="introPrimi.xhtml"/>
+    <itemref idref="risottoFunghi.xhtml"/>
+    <itemref idref="pastaCeci.xhtml"/>
+    <itemref idref="defSecondi.xhtml"/>
+    <itemref idref="introSecondi.xhtml"/>
+    <itemref idref="carneAllaPizzaiola.xhtml"/>
+    <itemref idref="coscePollo.xhtml"/>
+    <itemref idref="totanoLimone.xhtml"/>
+    <itemref idref="defDolci.xhtml"/>
+    <itemref idref="introDolci.xhtml"/>
+    <itemref idref="pannaCotta.xhtml"/>
+    <itemref idref="gelatoFragole.xhtml"/>
+    <itemref idref="Index.xhtml"/>
+  </spine>
+</package>
